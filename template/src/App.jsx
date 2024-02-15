@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import Header from './header'
+import Ques from './textarea'
 function App() {
   return(
-    <div className="bg-[#040F48]">
-      
+    <div className="bg-[#040F48] absolute w-[100vw] h-[100vh] ">
+      <Header />
+      <Ques></Ques>
     </div>
   )
 }
